@@ -1,0 +1,75 @@
+.header .img-header {
+  width: 100%;
+}
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 13px;
+  position: absolute;
+  top: 40px;
+  width: 1400px;
+  margin: auto;
+}
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header div .but-blue {
+  background-color: #38BFF2;
+  padding: 1px;
+  color: white;
+  border-radius: 34px;
+  gap: 0px;
+  width: 98px;
+  justify-content: space-evenly;
+}
+.header .ps {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 180px;
+  left: 140px;
+}
+.header .ps .computer {
+  width: 390px;
+  height: 410px;
+}
+.header .ps :nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+  width: 650px;
+}
+.header .ps :nth-child(1) .span {
+  font-size: 40px;
+  font-weight: 700;
+}
+.header .ps span {
+  color: #F15525;
+  font-size: 40px;
+}
+.header .ps :nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  width: 600px;
+}
+.header .ps :nth-child(3) {
+  background-color: #F15525;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 14px;
+  width: 250px;
+  text-align: center;
+}
+.header .arr {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  top: 700px;
+  left: 740px;
+}/*# sourceMappingURL=style.css.map */
