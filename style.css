@@ -318,4 +318,32 @@
 .four article :nth-child(1) {
   font-weight: 700;
   font-size: 26px;
+}
+
+.five {
+  background-color: #F9F8FD;
+  height: 300px;
+  position: relative;
+  top: -2000px;
+}
+.five p {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.five .kalkulator {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.five .kalkulator :nth-child(2) {
+  font-size: 15px;
+  font-weight: 400;
+  width: 300px;
+  text-align: left;
+}
+.five .div4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
