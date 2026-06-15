@@ -404,4 +404,34 @@
   padding: 23px;
   border-radius: 23px;
   color: white;
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.footer article {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: grey;
+}
+.footer .phone {
+  width: 160px;
+  color: rgb(186, 179, 179);
+  font-size: 12px;
+}
+
+.foot .border-top {
+  border-top: 1px solid grey;
+  width: 1400px;
+  margin: auto;
+  margin-top: 40px;
+}
+.foot .div6 {
+  color: grey;
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
