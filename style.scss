@@ -90,3 +90,84 @@ left: 140px;
 }
 
 }
+.first{
+     position: relative;
+        margin-top: -900px;
+    p{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    nav{
+        p{
+            font-size: 15px;
+            font-weight: 400px;
+            color: white;
+           
+        }
+         :nth-child(1){
+background-color: #38BFF2;
+padding: 10px;
+border-radius: 10px;  
+width: 270px;      
+        }
+        :nth-child(2){
+background-color: #FFB359;
+border-radius:10px;  
+width: 90px; 
+padding: 10px     
+        }
+        :nth-child(3){
+background-color:#FF6F50;
+border-radius: 10px;  
+width: 150px; 
+padding: 10px     
+        }
+        :nth-child(4){
+background-color: #4BD071;
+border-radius: 10px;  
+width: 280px; 
+padding: 10px     
+        }
+        :nth-child(5){
+background-color: #50C0FF;
+border-radius: 10px;  
+width: 260px;  
+padding: 10px    
+        }
+        :nth-child(6){
+background-color: #4B77B9;
+border-radius: 10px;  
+width: 90px; 
+padding: 10px     
+        }
+        :nth-child(7){
+background-color: #AF93FF;
+border-radius: 10px;  
+width: 80px; 
+padding: 10px     
+        }
+        :nth-child(8){
+            color: black;
+            font-weight: 700;
+            width: 360px;
+        }
+        display: flex;
+        
+        flex-wrap: wrap;
+        width: 500px;
+        gap: 5px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        background-color: #EAF2F5;
+        padding: 40px;
+        border-radius: 50px;
+        width: 1160px;
+        margin: auto;
+       
+    }
+
+}
