@@ -346,4 +346,38 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.six table {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  width: 1140px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(191, 185, 185);
+  margin-top: -1900px;
+  border-collapse: collapse;
+}
+.six table th {
+  color: #38BFF2;
+  font-weight: 700;
+}
+.six table td {
+  text-align: center;
+}
+.six table :nth-child(even) {
+  background-color: rgb(211, 209, 209);
+}
+.six table .stoimost {
+  background-color: white;
+}
+.six table .bes {
+  background-color: white;
+}
+.six p {
+  color: grey;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
