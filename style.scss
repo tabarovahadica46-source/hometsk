@@ -317,3 +317,31 @@ margin: auto;
         top: -2300px;
     }
 }
+.four{
+    background-color: white;
+    height: 660px;
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    top: -2200px;
+   
+
+    article{
+        background-color: #EAF2F5;
+        padding: 30px;
+        width: 500px;
+        height: 250px;
+        border-radius: 28px;
+        :nth-child(1){
+            font-weight: 700;
+            font-size: 26px;
+        }
+    }
+}
